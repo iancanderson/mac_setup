@@ -12,4 +12,5 @@ cask install nvalt
 cask install omnifocus
 cask install scansnap-manager
 cask install shoes
+cask install spectacle
 cask install spotify

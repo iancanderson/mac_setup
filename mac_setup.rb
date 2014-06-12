@@ -49,8 +49,7 @@ def setup_keyboard_mappings
   `osascript applescripts/map_caps_lock_to_control.scpt`
 end
 
-#`brew bundle`
+`brew bundle`
 setup_keyboard_mappings
 generate_ssh_keys
 setup_dotfiles
-
