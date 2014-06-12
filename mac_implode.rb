@@ -2,18 +2,13 @@
 
 require 'pathname'
 
+require './file_helpers'
+
 puts "Are you sure??? (y/n)"
 answer = gets.chomp
 abort unless answer == 'y'
 
-def home_filepath(file)
-  Pathname(File.join(Dir.home, file))
-end
-
-def code_filepath(file)
-  Pathname(File.join(Dir.home, 'code', file))
-end
-
-`rm -rf #{home_filepath('.ssh')}`
-`rm -rf #{code_filepath('dotfiles')}`
-
+`rcdn`
+`rm -rf #{ssh_dir}`
+`rm -rf #{personal_code_path}`
+`rm -rf #{thoughtbot_code_path}`
