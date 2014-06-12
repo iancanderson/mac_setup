@@ -1,0 +1,15 @@
+install caskroom/cask/brew-cask
+cask install audacity
+cask install audio-hijack-pro
+cask install dropbox
+cask install firefox
+cask install flux
+cask install gitx-rowanj
+cask install google-chrome
+cask install google-drive
+cask install hazel
+cask install nvalt
+cask install omnifocus
+cask install scansnap-manager
+cask install shoes
+cask install spotify
