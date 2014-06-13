@@ -1,8 +1,10 @@
 install caskroom/cask/brew-cask
 cask install audacity
 cask install audio-hijack-pro
+cask install backblaze-downloader
 cask install dropbox
 cask install firefox
+cask install flash
 cask install flux
 cask install gitx-rowanj
 cask install google-chrome
