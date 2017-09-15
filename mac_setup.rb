@@ -38,10 +38,11 @@ def setup_dotfiles
 end
 
 def setup_keyboard_mappings
-  `osascript applescripts/map_caps_lock_to_control.scpt`
+  system "osascript applescripts/map_caps_lock_to_control.scpt"
 end
 
-`brew bundle`
+system "brew tap Homebrew/bundle"
+system "brew bundle"
 setup_keyboard_mappings
 generate_ssh_keys
 setup_dotfiles

@@ -4,7 +4,7 @@ end tell
 tell application "System Events" to tell window 1 of process "System Preferences"
 	click button 1 of tab group 1
 	tell sheet 1
-		tell pop up button 4
+		tell pop up button 2
 			click
 			delay 0.1
 			click menu item 2 of menu 1

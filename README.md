@@ -8,6 +8,7 @@ mac_setup
 - Create ~/code directory
 - Clone this mac_setup repo to ~/code/mac_setup
 - Run `./mac_setup.rb`
+- Set Spectacle to open automatically when you log in
 
 ## What does it do?
 

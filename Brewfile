@@ -1,1 +1,7 @@
-bundle Brewfile-casks
+cask_args appdir: "/Applications"
+tap "caskroom/cask"
+cask "dropbox"
+cask "firefox"
+cask "google-chrome"
+cask "omnifocus"
+cask "spectacle"

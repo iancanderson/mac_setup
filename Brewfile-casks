@@ -1,9 +1,0 @@
-install caskroom/cask/brew-cask
-cask install audacity
-cask install dropbox
-cask install firefox
-cask install gitx-rowanj
-cask install google-chrome
-cask install omnifocus
-cask install scansnap-manager
-cask install spectacle
