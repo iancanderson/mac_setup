@@ -1,5 +1,3 @@
 GITHUB_USERNAME = 'iancanderson'
 PERSONAL_EMAIL = 'ian@iancanderson.com'
 PERSONAL_SSH_KEY = 'id_rsa'
-WORK_EMAIL = 'iancanderson@thoughtbot.com'
-WORK_SSH_KEY = 'tb_rsa'

@@ -17,14 +17,6 @@ def generate_ssh_keys
     `ssh-keygen -t rsa -C #{PERSONAL_EMAIL} -f #{personal_ssh_key_path}`
   end
 
-  work_ssh_key_path = ssh_dir.join(WORK_SSH_KEY)
-  if work_ssh_key_path.exist?
-    @logger.info("Work SSH key already exists")
-  else
-    @logger.info("Generating work ssh key")
-    `ssh-keygen -t rsa -C #{WORK_EMAIL} -f #{work_ssh_key_path}`
-  end
-
   #TODO upload public keys to heroku and github
 end
 
