@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "7d0ee382bf9be073f9f0aaf7c3ca18388b1dbb96"
+        "revision": "0eb5daf50f786c93f2b5caae1e65aad6b251188e"
       }
     },
     "brew": {
@@ -143,6 +143,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "rectangle": {
+        "version": "0.48,53",
+        "options": {
+          "full_name": "rectangle",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     }
   },
@@ -151,7 +160,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.2.2",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "b7f87e1ed8fc46fbe0217ce6c2e8f6f1b15b4fa8",
+        "Homebrew/homebrew-core": "9c74354b307eb9a77b789025a8fbe2a8732356b7",
         "CLT": "12.5.0.0.1.1617976050",
         "Xcode": "12.5",
         "macOS": "11.3.1"
