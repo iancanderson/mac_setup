@@ -1,5 +1,9 @@
 cask_args appdir: "/Applications"
-tap "caskroom/cask"
+tap "homebrew/cask"
+
+brew "gh"
+brew "rcm"
+cask "1password"
 cask "dropbox"
 cask "firefox"
 cask "google-chrome"
