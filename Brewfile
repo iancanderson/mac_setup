@@ -1,10 +1,12 @@
 cask_args appdir: "/Applications"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 
 brew "rcm"
 cask "1password"
 cask "dropbox"
 cask "firefox"
+cask "fujitsu-scansnap-manager"
 cask "google-chrome"
 cask "mullvadvpn"
 cask "obsidian"

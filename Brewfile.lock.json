@@ -2,7 +2,10 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "5d53d8aaf9d7cf3e605e47a0466e2781653ec49c"
+        "revision": "5fca380c012f21d3b2aee54958e29bfb88cd7077"
+      },
+      "homebrew/cask-drivers": {
+        "revision": "ad892bfd397bd98508127d299fa5ebac0dd19177"
       }
     },
     "brew": {
@@ -353,7 +356,7 @@
         }
       },
       "omnifocus": {
-        "version": "3.12",
+        "version": "3.12.2",
         "options": {
           "full_name": "omnifocus",
           "args": {
@@ -371,7 +374,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.62.0",
+        "version": "1.62.1",
         "options": {
           "full_name": "visual-studio-code",
           "args": {
@@ -416,9 +419,18 @@
         }
       },
       "raycast": {
-        "version": "1.25.3",
+        "version": "1.25.4",
         "options": {
           "full_name": "raycast",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "fujitsu-scansnap-manager": {
+        "version": "7.0L30",
+        "options": {
+          "full_name": "fujitsu-scansnap-manager",
           "args": {
             "appdir": "/Applications"
           }
@@ -435,9 +447,9 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.3.2",
+        "HOMEBREW_VERSION": "3.3.3",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "bd4ab38b84f51fff8b5e34b4ae401afc5cefeb66",
+        "Homebrew/homebrew-core": "356f12c369ef109698dc02753ccc078c66628901",
         "CLT": "12.5.1.0.1.1623191612",
         "Xcode": "13.1",
         "macOS": "11.5.2"
