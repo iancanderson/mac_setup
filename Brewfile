@@ -1,6 +1,7 @@
 cask_args appdir: "/Applications"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
+tap "planetscale/tap"
 
 brew "rcm"
 cask "1password"
@@ -14,11 +15,15 @@ cask "omnifocus"
 cask "raycast"
 cask "rectangle"
 mas "Deliveries", id: 924726344
+mas "Paprika", id: 1303222628
 
 # Development
 brew "exercism"
 brew "gh"
 brew "go"
+brew "mysql-client"
+brew "nvm"
+brew "pscale"
 brew "rbenv"
 brew "tmux"
 brew "vim"
